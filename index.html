@@ -1,18 +1,16 @@
+
 <h3>Background</h3>
 <p>
-  <a href="https://github.com/w3c/browser-payment-api">PaymentRequest</a> lets
-  you accept payment from different payment methods.
+  <a href="https://s2p.stg.mpay.samsung.com/v1/welcome/eyJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..Rw80V3D_qKZpatWC.53SdrUWPsIDJm_sJbAC4cnxaloLFop1axyzJdEIt4hs.VgRFcGq3alBGsP4PEVkvDA">PaymentRequest</a>
 </p>
 
 <p>
-  This sample accepts Android Pay payments and does not request shipping
-  information.
+  This sample accepts Samsung Pay payments
 </p>
 
-{% capture initial_output_content %}
+<script src="demo.js">
+</script>
+
 <div><button id="buyButton">Buy</button></div>
 <div><pre id="result"></pre></div>
-{% endcapture %}
-{% include output_helper.html initial_output_content=initial_output_content %}
 
-{% include js_snippet.html filename='demo.js' %}
