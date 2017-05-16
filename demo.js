@@ -103,7 +103,7 @@ const payButton = document.getElementById('buyButton');
 //payButton.setAttribute('style', 'display: none;');
 //payButton.setAttribute('style', 'display: inline;');
   payButton.addEventListener('click', function() {
-      window.location.href = "https://s2p.mpay.samsung.com/v1/welcome/eyJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..Rw80V3D_qKZpatWC.53SdrUWPsIDJm_sJbAC4cnxaloLFop1axyzJdEIt4hs.VgRFcGq3alBGsP4PEVkvDA";
+      window.location.href = "https://s2p.stg.mpay.samsung.com/v1/welcome/eyJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..Rw80V3D_qKZpatWC.53SdrUWPsIDJm_sJbAC4cnxaloLFop1axyzJdEIt4hs.VgRFcGq3alBGsP4PEVkvDA";
   });
 /*
 if (window.PaymentRequest) {
